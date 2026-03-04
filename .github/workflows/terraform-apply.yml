@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "Gabriel_Terraform_CICD"
+  TF_CLOUD_ORGANIZATION: "gabriel_Terraform_CICD"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "Gabriel_GitHub_Actions"
   CONFIG_DIRECTORY: "./terraform/"
